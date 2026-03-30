@@ -1,0 +1,97 @@
+body{
+
+margin:0;
+
+background:black;
+
+color:#00ff9c;
+
+font-family:monospace;
+
+}
+
+
+/* tela inicial */
+
+#login{
+
+height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+
+/* terminal */
+
+#terminal{
+
+max-width:600px;
+
+margin-bottom:20px;
+
+}
+
+
+
+/* CONTEUDO COM FUNDO */
+
+#conteudo{
+
+display:none;
+
+height: 100vh;
+
+justify-content:center;
+
+align-items:center;
+
+background-image: url("felizaniversário.png");
+background-size: contain;
+background-position: center;
+
+}
+
+
+#carta{
+
+background:#f4e7c5;
+
+color:#3a2d1a;
+
+padding:40px;
+
+max-width:600px;
+
+border-radius:10px;
+
+text-align:center;
+
+font-family:serif;
+
+box-shadow:0 0 25px rgba(0,0,0,0.5);
+
+}
+
+
+#mensagem{
+
+font-size:20px;
+
+line-height:1.5;
+
+}
+
+.sumir{
+
+opacity:0;
+
+transition:opacity 2s;
+
+}

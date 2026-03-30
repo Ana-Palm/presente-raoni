@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+<meta charset="UTF-8">
+<title>Sistema</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<div id="login">
+
+<p id="terminal"></p>
+
+<input type="text" id="nome" placeholder="Digite seu nome" autofocus onkeydown="if(event.key === 'Enter') verificar()">
+
+<button onclick="verificar()">Confirmar</button>
+
+<p id="erro"></p>
+
+</div>
+
+
+<div id="conteudo">
+
+<div id="carta">
+
+<h2>Mensagem desbloqueada</h2>
+
+<p id="mensagem"></p>
+
+</div>
+
+</div>
+
+
+<audio id="musica" preload="auto">
+<source src="parabenss.mp3.mp3" type="audio/mp3">
+</audio>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
