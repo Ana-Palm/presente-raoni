@@ -106,7 +106,7 @@ clearInterval(intervalo)
 setTimeout(function(){
 
 document.getElementById("carta").classList.add("sumir")
-
+document.getElementById("fotoFundo").style.opacity = "1"
 },6000)
 
 }
