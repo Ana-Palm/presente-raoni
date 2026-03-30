@@ -50,14 +50,13 @@ text-shadow:0 0 5px #00ff9c;
 display:none;
 
 height:100vh;
-width:100%;
 
 justify-content:center;
 
 align-items:center;
 
 background-image: url("felizaniversário.png");
-background-size: 75%;
+background-size: contain;
 background-position: center;
 background-repeat: no-repeat;
 background-color:black;
@@ -67,7 +66,10 @@ background-color:black;
 @media (max-width: 768px){
 
 #conteudo{
+
 background-size: contain;
+background-position: center;
+
 }
 
 }
