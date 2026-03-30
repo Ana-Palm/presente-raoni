@@ -67,7 +67,7 @@ background-color:black;
 @media (max-width: 768px){
 
 #conteudo{
-background-size: cover;
+background-size: 90%;
 }
 
 }
