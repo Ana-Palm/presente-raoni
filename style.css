@@ -48,18 +48,15 @@ text-shadow:0 0 5px #00ff9c;
 #conteudo{
 
 display:none;
-
 height:100vh;
 
 justify-content:center;
-
 align-items:center;
 
-background-image: url("felizaniversário.png");
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
 background-color:black;
+position:relative;
+
+}
 
 }
 
@@ -78,20 +75,16 @@ background-position: center;
 #carta{
 
 background:#f4e7c5;
-
 color:#3a2d1a;
-
 padding:40px;
-
 max-width:600px;
-
 border-radius:10px;
-
 text-align:center;
-
 font-family:serif;
-
 box-shadow:0 0 25px rgba(0,0,0,0.5);
+
+position:relative;
+z-index:1;
 
 }
 
@@ -161,5 +154,24 @@ height:100%;
 z-index:-1;
 
 background:black;
+
+}
+
+#fotoFundo{
+
+position:absolute;
+
+max-width:90%;
+max-height:90%;
+
+top:50%;
+left:50%;
+
+transform:translate(-50%,-50%);
+
+z-index:0;
+
+opacity:0;
+transition:opacity 3s;
 
 }
