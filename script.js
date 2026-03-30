@@ -86,7 +86,6 @@ function mostrarTexto(){
 
 let texto = "Feliz aniversário, Raoni!! Queria te desejar muitoos anos de vida, muita saúde, paz, dinheiro e muita, mas muita coisa boa mesmo, afinal, você merece! Quero te agradecer por ser esse amigo incrivel, dedicado, cuidadoso, gentil e divertido pra cacete. Não sei o que seria dos meus dias sem você para incomodar, saiba que te amo muitooo e que sempre vou estar aqui quando precisar."
 
-
 let mensagem = document.getElementById("mensagem")
 
 mensagem.innerHTML = ""
@@ -106,7 +105,9 @@ clearInterval(intervalo)
 setTimeout(function(){
 
 document.getElementById("carta").classList.add("sumir")
+
 document.getElementById("fotoFundo").style.opacity = "1"
+
 },6000)
 
 }
